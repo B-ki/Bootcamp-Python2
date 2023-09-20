@@ -1,9 +1,10 @@
 import sys
 
+
 def whois(s):
     try:
         i = int(s)
-        if (i%2):
+        if (i % 2):
             print("I'm Odd")
         elif not i:
             print("I'm Zero")
@@ -11,6 +12,7 @@ def whois(s):
             print("I'm Even")
     except ValueError:
         raise AssertionError("argument is not an integer")
+
 
 def main():
     """Printing NULL types"""
@@ -20,15 +22,15 @@ def main():
         print(type(msg).__name__ + ": ", end="")
         print(msg)
         return
-    
+
     arg1 = sys.argv[1]
-    flag = True
-    
-    try: 
+
+    try:
         whois(arg1)
     except AssertionError as e:
         print(type(e).__name__ + ": ", end="")
         print(e)
+
 
 if __name__ == "__main__":
     main()

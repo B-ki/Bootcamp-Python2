@@ -1,9 +1,9 @@
 def NULL_not_found(object: any) -> int:
     if object is None:
-        print(f"Nothing : ", end="")
+        print("Nothing : ", end="")
         print(type(object))
         return 0
-    elif isinstance(object, float) and str(object).lower() == "nan": 
+    elif isinstance(object, float) and str(object).lower() == "nan":
         print(f"Cheese : {object} ", end="")
         print(type(object))
         return 0
@@ -12,7 +12,7 @@ def NULL_not_found(object: any) -> int:
         print(type(object))
         return 0
     elif object == "":
-        print(f"Empty : ", end="")
+        print("Empty : ", end="")
         print(type(object))
         return 0
     elif object is False:
@@ -22,6 +22,7 @@ def NULL_not_found(object: any) -> int:
     else:
         print("Type not Found")
         return 1
+
 
 def main():
     """Printing objects types"""
@@ -36,6 +37,7 @@ def main():
     NULL_not_found(Empty)
     NULL_not_found(Fake)
     print(NULL_not_found("Brian"))
+
 
 if __name__ == "__main__":
     main()
