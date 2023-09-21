@@ -34,7 +34,7 @@ function set_conda {
 	MINICONDA_PATH="/goinfre/$USER/miniconda3"
 	CONDA=$MINICONDA_PATH"/bin/conda"
 	PYTHON_PATH=$(which python)
-	REQUIREMENTS="jupyter numpy pandas pycodestyle pillow"
+	REQUIREMENTS="jupyter numpy pandas pycodestyle pillow flake8 matplotlib"
 	SCRIPT=$(which_dl)
 	MY_SHELL=$(which_shell)
 	DL_LINK="https://repo.anaconda.com/miniconda/"$SCRIPT
@@ -61,7 +61,7 @@ function set_conda {
 	$CONDA config --set auto_activate_base false
 	printf "\e[33mCreating 42AI-$USER environnment:\e[0m\n"
 	$CONDA update -n base -c defaults conda -y
-	$CONDA create --name 42AI-$USER python=3.11.5 jupyter numpy pandas pycodestyle -y
+	$CONDA create --name 42AI-$USER python=3.11.5 $REQUIREMENTS -y
 	printf "\e[33mLaunch the following command or restart your shell:\e[0m\n"
 	if [ $MY_SHELL == "zsh" ]; then
 		printf "\tsource ~/.zshrc\n"
@@ -71,3 +71,4 @@ function set_conda {
 }
 
 set_conda
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
