@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rmorel/Bootcamp-Python2/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+NULL_not_found	00/ex03/NULL_not_found.py	/^def NULL_not_found(object: any) -> int:$/;"	f	typeref:typename:int
+all_thing_is_obj	00/ex02/find_ft_type.py	/^def all_thing_is_obj(object: any) -> int:$/;"	f	typeref:typename:int
+apply_limit	01/ex00/give_bmi.py	/^def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:$/;"	f	typeref:typename:list[bool]
+check_length	00/ex06/filterstring.py	/^    check_length = lambda string, size: len(string) > size$/;"	f	function:main	file:
+ft_blue	01/ex05/pimp_image.py	/^def ft_blue(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+ft_filter	00/ex06/ft_filter.py	/^def ft_filter(function, iterable):$/;"	f
+ft_green	01/ex05/pimp_image.py	/^def ft_green(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+ft_grey	01/ex05/pimp_image.py	/^def ft_grey(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+ft_invert	01/ex05/pimp_image.py	/^def ft_invert(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+ft_load	01/ex02/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
+ft_load	01/ex03/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
+ft_load	01/ex04/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
+ft_load	01/ex05/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
+ft_red	01/ex05/pimp_image.py	/^def ft_red(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+give_bmi	01/ex00/give_bmi.py	/^def give_bmi($/;"	f	typeref:typename:list[int|float]
+is_even	00/ex06/filterstring.py	/^def is_even(x):$/;"	f
+is_string_normal	00/ex06/filterstring.py	/^def is_string_normal(string):$/;"	f
+is_vowel	00/ex06/filterstring.py	/^def is_vowel(x):$/;"	f
+load	02/ex00/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
+load	02/ex01/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
+load	02/ex02/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
+load	02/ex03/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
+main	00/ex00/Hello.py	/^def main():$/;"	f
+main	00/ex01/format_ft_time.py	/^def main():$/;"	f
+main	00/ex02/find_ft_type.py	/^def main():$/;"	f
+main	00/ex03/NULL_not_found.py	/^def main():$/;"	f
+main	00/ex04/whatis.py	/^def main():$/;"	f
+main	00/ex05/count.py	/^def main():$/;"	f
+main	00/ex06/filterstring.py	/^def main():$/;"	f
+main	01/ex00/tester.py	/^def main():$/;"	f
+main	01/ex01/tester.py	/^def main():$/;"	f
+main	01/ex02/tester.py	/^def main():$/;"	f
+main	01/ex03/zoom.py	/^def main():$/;"	f
+main	01/ex04/rotate.py	/^def main():$/;"	f
+main	01/ex05/tester.py	/^def main():$/;"	f
+main	02/ex00/tester.py	/^def main():$/;"	f
+main	02/ex01/aff_life.py	/^def main():$/;"	f
+main	02/ex02/aff_pop.py	/^def main():$/;"	f
+main	02/ex03/projection_life.py	/^def main():$/;"	f
+np	01/ex02/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex03/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex04/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex04/rotate.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex05/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex05/pimp_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	01/ex05/tester.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	02/ex03/projection_life.py	/^import numpy as np$/;"	I	nameref:module:numpy
+pd	02/ex00/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	02/ex01/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	02/ex02/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+pd	02/ex03/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
+plt	01/ex03/zoom.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	01/ex04/rotate.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	01/ex05/tester.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	02/ex01/aff_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	02/ex02/aff_pop.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	02/ex03/projection_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+set_conda	anaconda_install_home.sh	/^function set_conda {$/;"	f
+set_conda	miniconda_install_42.sh	/^function set_conda {$/;"	f
+slice_me	01/ex01/array2D.py	/^def slice_me(fam: list, start: int, end: int) -> list:$/;"	f	typeref:typename:list
+text_analyzer	00/ex05/count.py	/^def text_analyzer(s):$/;"	f
+when_conda_exist	anaconda_install_home.sh	/^function when_conda_exist {$/;"	f
+when_conda_exist	miniconda_install_42.sh	/^function when_conda_exist {$/;"	f
+which_dl	miniconda_install_42.sh	/^function which_dl {$/;"	f
+which_shell	miniconda_install_42.sh	/^function which_shell {$/;"	f
+whois	00/ex04/whatis.py	/^def whois(s):$/;"	f
