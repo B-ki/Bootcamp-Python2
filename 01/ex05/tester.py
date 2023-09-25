@@ -5,7 +5,7 @@ from pimp_image import ft_invert, ft_red, ft_green, ft_blue, ft_grey
 
 
 def main():
-    img_array = ft_load("../landscape.jpg")
+    img_array = ft_load("../PPGitHubRML.jpg")
     fig, axs = plt.subplots(2, 3)
     axs[0, 0].imshow(img_array)
     axs[0, 0].set_title("Normal")
