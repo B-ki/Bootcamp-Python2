@@ -9,10 +9,75 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
+Baratheon	03/ex01/S1E7.py	/^class Baratheon(Character):$/;"	c
+Baratheon	03/ex02/S1E7.py	/^class Baratheon(Character):$/;"	c
+COMPOSE	Datascience/Makefile	/^COMPOSE = $(DOCKER) compose --env-file $(ENV_FILE)$/;"	m
+Cersei	03/ex01/tester.py	/^Cersei = Lannister("Cersei")$/;"	v
+Character	03/ex00/S1E9.py	/^class Character(ABC):$/;"	c
+Character	03/ex01/S1E9.py	/^class Character(ABC):$/;"	c
+Character	03/ex02/S1E9.py	/^class Character(ABC):$/;"	c
+DOCKER	Datascience/Makefile	/^DOCKER = DOCKER$/;"	m
+ENV_FILE	Datascience/Makefile	/^ENV_FILE = .ENV_FILE$/;"	m
+Jaine	03/ex01/tester.py	/^Jaine = Lannister.create_lannister("Jaine", True)$/;"	v
+Joffrey	03/ex02/tester.py	/^Joffrey = King("Joffrey")$/;"	v
+King	03/ex02/DiamondTrap.py	/^class King(Baratheon, Lannister):$/;"	c
+Lannister	03/ex01/S1E7.py	/^class Lannister(Character):$/;"	c
+Lannister	03/ex02/S1E7.py	/^class Lannister(Character):$/;"	c
+Lyanna	03/ex00/tester.py	/^Lyanna = Stark("Lyanna", False)$/;"	v
 NULL_not_found	00/ex03/NULL_not_found.py	/^def NULL_not_found(object: any) -> int:$/;"	f	typeref:typename:int
+Ned	03/ex00/tester.py	/^Ned = Stark("Ned")$/;"	v
+Robert	03/ex01/tester.py	/^Robert = Baratheon("Robert")$/;"	v
+Stark	03/ex00/S1E9.py	/^class Stark(Character):$/;"	c
+Stark	03/ex01/S1E9.py	/^class Stark(Character):$/;"	c
+Stark	03/ex02/S1E9.py	/^class Stark(Character):$/;"	c
+Student	04/ex03/new_student.py	/^class Student:$/;"	c
+__add__	03/ex03/ft_calculator.py	/^    def __add__(self, n):$/;"	m	class:calculator
+__init__	03/ex00/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Character
+__init__	03/ex00/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Stark
+__init__	03/ex01/S1E7.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Baratheon
+__init__	03/ex01/S1E7.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Lannister
+__init__	03/ex01/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Character
+__init__	03/ex01/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Stark
+__init__	03/ex02/DiamondTrap.py	/^    def __init__(self, first_name):$/;"	m	class:King
+__init__	03/ex02/S1E7.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Baratheon
+__init__	03/ex02/S1E7.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Lannister
+__init__	03/ex02/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Character
+__init__	03/ex02/S1E9.py	/^    def __init__(self, first_name, is_alive=True):$/;"	m	class:Stark
+__init__	03/ex03/ft_calculator.py	/^    def __init__(self, *args):$/;"	m	class:calculator
+__init__	04/ex03/new_student.py	/^    def __init__(self, name, surname):$/;"	m	class:Student
+__mul__	03/ex03/ft_calculator.py	/^    def __mul__(self, n):$/;"	m	class:calculator
+__repr__	03/ex01/S1E7.py	/^    def __repr__(self):$/;"	m	class:Baratheon
+__repr__	03/ex01/S1E7.py	/^    def __repr__(self):$/;"	m	class:Lannister
+__repr__	03/ex02/S1E7.py	/^    def __repr__(self):$/;"	m	class:Baratheon
+__repr__	03/ex02/S1E7.py	/^    def __repr__(self):$/;"	m	class:Lannister
+__str__	03/ex01/S1E7.py	/^    def __str__(self) -> str:$/;"	m	class:Baratheon	typeref:typename:str
+__str__	03/ex01/S1E7.py	/^    def __str__(self):$/;"	m	class:Lannister
+__str__	03/ex02/S1E7.py	/^    def __str__(self) -> str:$/;"	m	class:Baratheon	typeref:typename:str
+__str__	03/ex02/S1E7.py	/^    def __str__(self):$/;"	m	class:Lannister
+__sub__	03/ex03/ft_calculator.py	/^    def __sub__(self, n):$/;"	m	class:calculator
+__truediv__	03/ex03/ft_calculator.py	/^    def __truediv__(self, n):$/;"	m	class:calculator
+a	03/ex04/tester.py	/^a = [5, 10, 2]$/;"	v
+add_vec	03/ex04/ft_calculator.py	/^    def add_vec(V1: list[float], V2: list[float]) -> None:$/;"	m	class:calculator	typeref:typename:None
+all	Datascience/Makefile	/^all: build up$/;"	t
 all_thing_is_obj	00/ex02/find_ft_type.py	/^def all_thing_is_obj(object: any) -> int:$/;"	f	typeref:typename:int
+another_counter	04/ex01/tester.py	/^another_counter = outer(1.5, pow)$/;"	v
 apply_limit	01/ex00/give_bmi.py	/^def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:$/;"	f	typeref:typename:list[bool]
+b	03/ex04/tester.py	/^b = [2, 4, 3]$/;"	v
+build	Datascience/Makefile	/^build:$/;"	t
+calculator	03/ex03/ft_calculator.py	/^class calculator:$/;"	c
+calculator	03/ex04/ft_calculator.py	/^class calculator:$/;"	c
+callLimit	04/ex02/callLimit.py	/^def callLimit(limit: int):$/;"	f
+callLimiter	04/ex02/callLimit.py	/^    def callLimiter(function):$/;"	f	function:callLimit	file:
 check_length	00/ex06/filterstring.py	/^    check_length = lambda string, size: len(string) > size$/;"	f	function:main	file:
+clean	Datascience/Makefile	/^clean:$/;"	t
+create_lannister	03/ex01/S1E7.py	/^    def create_lannister(self, first_name):$/;"	m	class:Lannister
+create_lannister	03/ex02/S1E7.py	/^    def create_lannister(self, first_name):$/;"	m	class:Lannister
+die	03/ex00/S1E9.py	/^    def die(self):$/;"	m	class:Stark
+die	03/ex01/S1E9.py	/^    def die(self):$/;"	m	class:Character
+die	03/ex02/S1E9.py	/^    def die(self):$/;"	m	class:Character
+dotproduct	03/ex04/ft_calculator.py	/^    def dotproduct(V1: list[float], V2: list[float]) -> None:$/;"	m	class:calculator	typeref:typename:None
+f	04/ex02/tester.py	/^def f():$/;"	f
+fclean	Datascience/Makefile	/^fclean: clean$/;"	t
 ft_blue	01/ex05/pimp_image.py	/^def ft_blue(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
 ft_filter	00/ex06/ft_filter.py	/^def ft_filter(function, iterable):$/;"	f
 ft_green	01/ex05/pimp_image.py	/^def ft_green(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
@@ -23,10 +88,18 @@ ft_load	01/ex03/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typere
 ft_load	01/ex04/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
 ft_load	01/ex05/load_image.py	/^def ft_load(path: str) -> np.array:$/;"	f	typeref:typename:np.array
 ft_red	01/ex05/pimp_image.py	/^def ft_red(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
+ft_statistics	04/ex00/statistics.py	/^def ft_statistics(*args, **kwargs) -> None:$/;"	f	typeref:typename:None
+g	04/ex02/tester.py	/^def g():$/;"	f
+generate_id	04/ex03/new_student.py	/^def generate_id() -> str:$/;"	f	typeref:typename:str
+get_eyes	03/ex02/DiamondTrap.py	/^    def get_eyes(self):$/;"	m	class:King
+get_hairs	03/ex02/DiamondTrap.py	/^    def get_hairs(self):$/;"	m	class:King
 give_bmi	01/ex00/give_bmi.py	/^def give_bmi($/;"	f	typeref:typename:list[int|float]
+hodor	03/ex00/not_working_tester.py	/^hodor = Character("Hodor")$/;"	v
+inner	04/ex01/in_out.py	/^    def inner() -> float:$/;"	f	function:outer	typeref:typename:float	file:
 is_even	00/ex06/filterstring.py	/^def is_even(x):$/;"	f
 is_string_normal	00/ex06/filterstring.py	/^def is_string_normal(string):$/;"	f
 is_vowel	00/ex06/filterstring.py	/^def is_vowel(x):$/;"	f
+limit_function	04/ex02/callLimit.py	/^        def limit_function(*args, **kwds):$/;"	f	function:callLimit.callLimiter	file:
 load	02/ex00/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
 load	02/ex01/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
 load	02/ex02/load_csv.py	/^def load(path: str) -> pd.DataFrame:$/;"	f	typeref:typename:pd.DataFrame
@@ -48,6 +121,10 @@ main	02/ex00/tester.py	/^def main():$/;"	f
 main	02/ex01/aff_life.py	/^def main():$/;"	f
 main	02/ex02/aff_pop.py	/^def main():$/;"	f
 main	02/ex03/projection_life.py	/^def main():$/;"	f
+math	04/ex00/statistics.py	/^import math as math$/;"	I	nameref:module:math
+mean	04/ex00/statistics.py	/^def mean(x):$/;"	f
+median	04/ex00/statistics.py	/^def median(x):$/;"	f
+my_counter	04/ex01/tester.py	/^my_counter = outer(x, square)$/;"	v
 np	01/ex02/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	01/ex03/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	01/ex04/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
@@ -55,7 +132,8 @@ np	01/ex04/rotate.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	01/ex05/load_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	01/ex05/pimp_image.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	01/ex05/tester.py	/^import numpy as np$/;"	I	nameref:module:numpy
-np	02/ex03/projection_life.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	04/ex00/statistics.py	/^import numpy as np$/;"	I	nameref:module:numpy
+outer	04/ex01/in_out.py	/^def outer(x: int | float, function) -> object:$/;"	f	typeref:typename:object
 pd	02/ex00/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	02/ex01/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
 pd	02/ex02/load_csv.py	/^import pandas as pd$/;"	I	nameref:module:pandas
@@ -66,12 +144,32 @@ plt	01/ex05/tester.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:mat
 plt	02/ex01/aff_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
 plt	02/ex02/aff_pop.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
 plt	02/ex03/projection_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+pow	04/ex01/in_out.py	/^def pow(x: int | float) -> int | float:$/;"	f	typeref:typename:int|float
+python.linting.enabled	.vim/coc-settings.json	/^  "python.linting.enabled": true$/;"	b
+python.linting.flake8Enabled	.vim/coc-settings.json	/^  "python.linting.flake8Enabled": true,$/;"	b
+python.linting.pylintEnabled	.vim/coc-settings.json	/^  "python.linting.pylintEnabled": false,$/;"	b
+quartile	04/ex00/statistics.py	/^def quartile(x):$/;"	f
+quartile_rank	04/ex00/statistics.py	/^def quartile_rank(i_inf, x):$/;"	f
+re	Datascience/Makefile	/^re: fclean all$/;"	t
 set_conda	anaconda_install_home.sh	/^function set_conda {$/;"	f
 set_conda	miniconda_install_42.sh	/^function set_conda {$/;"	f
+set_eyes	03/ex02/DiamondTrap.py	/^    def set_eyes(self, color):$/;"	m	class:King
+set_hairs	03/ex02/DiamondTrap.py	/^    def set_hairs(self, color):$/;"	m	class:King
 slice_me	01/ex01/array2D.py	/^def slice_me(fam: list, start: int, end: int) -> list:$/;"	f	typeref:typename:list
+sous_vec	03/ex04/ft_calculator.py	/^    def sous_vec(V1: list[float], V2: list[float]) -> None:$/;"	m	class:calculator	typeref:typename:None
+square	04/ex01/in_out.py	/^def square(x: int | float) -> int | float:$/;"	f	typeref:typename:int|float
+std	04/ex00/statistics.py	/^def std(x):$/;"	f
+student	04/ex03/fake_tester.py	/^student = Student(name="Edward", surname="agle", id="toto")$/;"	v
+student	04/ex03/tester.py	/^student = Student(name="Edward", surname="agle")$/;"	v
 text_analyzer	00/ex05/count.py	/^def text_analyzer(s):$/;"	f
+up	Datascience/Makefile	/^up:$/;"	t
+v1	03/ex03/tester.py	/^v1 = calculator([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])$/;"	v
+v2	03/ex03/tester.py	/^v2 = calculator([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])$/;"	v
+v3	03/ex03/tester.py	/^v3 = calculator([10.0, 15.0, 20.0])$/;"	v
+var	04/ex00/statistics.py	/^def var(x):$/;"	f
 when_conda_exist	anaconda_install_home.sh	/^function when_conda_exist {$/;"	f
 when_conda_exist	miniconda_install_42.sh	/^function when_conda_exist {$/;"	f
 which_dl	miniconda_install_42.sh	/^function which_dl {$/;"	f
 which_shell	miniconda_install_42.sh	/^function which_shell {$/;"	f
 whois	00/ex04/whatis.py	/^def whois(s):$/;"	f
+x	04/ex01/tester.py	/^x = 3$/;"	v
