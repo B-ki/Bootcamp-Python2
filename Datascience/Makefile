@@ -5,6 +5,11 @@ COMPOSE = $(DOCKER) compose --env-file $(ENV_FILE)
 all: build up
 
 build:
+	curl -LO https://cdn.intra.42.fr/document/document/17536/subject.zip
+	unzip subject.zip
+	rm subject.zip
+	sudo mv subject/ data/
+	rm -rf subject
 	docker compose build
 
 up:

@@ -70,12 +70,21 @@ callLimit	04/ex02/callLimit.py	/^def callLimit(limit: int):$/;"	f
 callLimiter	04/ex02/callLimit.py	/^    def callLimiter(function):$/;"	f	function:callLimit	file:
 check_length	00/ex06/filterstring.py	/^    check_length = lambda string, size: len(string) > size$/;"	f	function:main	file:
 clean	Datascience/Makefile	/^clean:$/;"	t
+conn	Datascience/00/database_creation.py	/^conn = psycopg2.connect(**db_params)$/;"	v
 create_lannister	03/ex01/S1E7.py	/^    def create_lannister(self, first_name):$/;"	m	class:Lannister
 create_lannister	03/ex02/S1E7.py	/^    def create_lannister(self, first_name):$/;"	m	class:Lannister
+csv_dir	Datascience/00/database_creation.py	/^csv_dir = "..\/data\/subject\/customer\/"$/;"	v
+csv_files	Datascience/00/database_creation.py	/^csv_files = [f for f in os.listdir(csv_dir) if f.endswith(".csv")]$/;"	v
+cursor	Datascience/00/database_creation.py	/^cursor = conn.cursor()$/;"	v
+data_2022_oct	Datascience/00/create_data_2022_oct.sql	/^CREATE TABLE data_2022_oct ($/;"	t
+db_name	Datascience/00/database_creation.py	/^    db_name = os.path.splitext(csv_file)[0]$/;"	v
+db_params	Datascience/00/database_creation.py	/^db_params = {$/;"	v
 die	03/ex00/S1E9.py	/^    def die(self):$/;"	m	class:Stark
 die	03/ex01/S1E9.py	/^    def die(self):$/;"	m	class:Character
 die	03/ex02/S1E9.py	/^    def die(self):$/;"	m	class:Character
 dotproduct	03/ex04/ft_calculator.py	/^    def dotproduct(V1: list[float], V2: list[float]) -> None:$/;"	m	class:calculator	typeref:typename:None
+event_time	Datascience/00/create_data_2022_oct.sql	/^	event_time TIMESTAMP,$/;"	E	table:data_2022_oct
+event_type	Datascience/00/create_data_2022_oct.sql	/^	event_type VARCHAR(50),$/;"	E	table:data_2022_oct
 f	04/ex02/tester.py	/^def f():$/;"	f
 fclean	Datascience/Makefile	/^fclean: clean$/;"	t
 ft_blue	01/ex05/pimp_image.py	/^def ft_blue(array) -> np.ndarray:$/;"	f	typeref:typename:np.ndarray
@@ -95,6 +104,7 @@ get_eyes	03/ex02/DiamondTrap.py	/^    def get_eyes(self):$/;"	m	class:King
 get_hairs	03/ex02/DiamondTrap.py	/^    def get_hairs(self):$/;"	m	class:King
 give_bmi	01/ex00/give_bmi.py	/^def give_bmi($/;"	f	typeref:typename:list[int|float]
 hodor	03/ex00/not_working_tester.py	/^hodor = Character("Hodor")$/;"	v
+id	Datascience/00/create_data_2022_oct.sql	/^	id BIGSERIAL PRIMARY KEY,$/;"	E	table:data_2022_oct
 inner	04/ex01/in_out.py	/^    def inner() -> float:$/;"	f	function:outer	typeref:typename:float	file:
 is_even	00/ex06/filterstring.py	/^def is_even(x):$/;"	f
 is_string_normal	00/ex06/filterstring.py	/^def is_string_normal(string):$/;"	f
@@ -145,6 +155,8 @@ plt	02/ex01/aff_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:m
 plt	02/ex02/aff_pop.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
 plt	02/ex03/projection_life.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
 pow	04/ex01/in_out.py	/^def pow(x: int | float) -> int | float:$/;"	f	typeref:typename:int|float
+price	Datascience/00/create_data_2022_oct.sql	/^	price FLOAT,$/;"	E	table:data_2022_oct
+product_id	Datascience/00/create_data_2022_oct.sql	/^	product_id INTEGER NOT NULL,$/;"	E	table:data_2022_oct
 python.linting.enabled	.vim/coc-settings.json	/^  "python.linting.enabled": true$/;"	b
 python.linting.flake8Enabled	.vim/coc-settings.json	/^  "python.linting.flake8Enabled": true,$/;"	b
 python.linting.pylintEnabled	.vim/coc-settings.json	/^  "python.linting.pylintEnabled": false,$/;"	b
@@ -157,12 +169,15 @@ set_eyes	03/ex02/DiamondTrap.py	/^    def set_eyes(self, color):$/;"	m	class:Kin
 set_hairs	03/ex02/DiamondTrap.py	/^    def set_hairs(self, color):$/;"	m	class:King
 slice_me	01/ex01/array2D.py	/^def slice_me(fam: list, start: int, end: int) -> list:$/;"	f	typeref:typename:list
 sous_vec	03/ex04/ft_calculator.py	/^    def sous_vec(V1: list[float], V2: list[float]) -> None:$/;"	m	class:calculator	typeref:typename:None
+sql_script	Datascience/00/database_creation.py	/^    sql_script = f"""$/;"	v
 square	04/ex01/in_out.py	/^def square(x: int | float) -> int | float:$/;"	f	typeref:typename:int|float
 std	04/ex00/statistics.py	/^def std(x):$/;"	f
 student	04/ex03/fake_tester.py	/^student = Student(name="Edward", surname="agle", id="toto")$/;"	v
 student	04/ex03/tester.py	/^student = Student(name="Edward", surname="agle")$/;"	v
 text_analyzer	00/ex05/count.py	/^def text_analyzer(s):$/;"	f
 up	Datascience/Makefile	/^up:$/;"	t
+user_id	Datascience/00/create_data_2022_oct.sql	/^	user_id BIGINT NOT NULL,$/;"	E	table:data_2022_oct
+user_session	Datascience/00/create_data_2022_oct.sql	/^	user_session VARCHAR(100)$/;"	E	table:data_2022_oct
 v1	03/ex03/tester.py	/^v1 = calculator([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])$/;"	v
 v2	03/ex03/tester.py	/^v2 = calculator([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])$/;"	v
 v3	03/ex03/tester.py	/^v3 = calculator([10.0, 15.0, 20.0])$/;"	v
