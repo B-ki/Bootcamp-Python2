@@ -3,19 +3,20 @@ import sys
 import re
 
 
-def is_even(x):
+def is_even(x: int) -> bool:
     """is_even function returns true if parameter is even, false if odd"""
     return x % 2 == 0
 
 
-def is_vowel(x):
+def is_vowel(x: str) -> bool:
     """is_vowel function returns true if letter is vowel, false else"""
     if x in ["a", "e", "i", "o", "u", "y"]:
         return True
     return False
 
 
-def is_string_normal(string):
+def is_string_normal(string: str) -> bool:
+    """checks if the string contains only alphanumeric characters and spaces"""
     pattern = r'[^a-zA-Z0-9\s]'
     match = re.search(pattern, string)
     if match:
@@ -24,31 +25,24 @@ def is_string_normal(string):
         return True
 
 
+def check_length(string: str, size: int) -> bool:
+    """checks if the string length is greater than size"""
+    return len(string) > size
+
+
 def main():
-    print("\n#########   ARGUMENTS - filterstring  #########\n")
     if (len(sys.argv) != 3):
         raise AssertionError("the arguments are bad")
-    s = sys.argv[1]
+    s: str = sys.argv[1]
+    if not is_string_normal(s):
+        raise AssertionError("the arguments are bad")
     try:
         n = int(sys.argv[2])
     except ValueError:
         raise AssertionError("the arguments are bad")
-    words = s.split(" ")
-    if not is_string_normal(s):
-        raise AssertionError("the arguments are bad")
-    check_length = lambda string, size: len(string) > size
-    print([word for word in words if check_length(word, n)])
-
-    print("\n\n#########   TESTS - ft_filter   #########\n")
-    print(filter.__doc__)
-    numbers = {1, 2, 3, 4, 5}
-    print(f"\nArguments : {numbers}, and function : {is_even.__doc__}")
-    filter_numbers = ft_filter(is_even, numbers)
-    print(f"Result : {filter_numbers}")
-    letters = ("a", "b", "c", "d", "e", "f", "i", "o", "p", "q", "r", "s", "u")
-    print(f"\nArguments : {letters}, and function : {is_vowel.__doc__}")
-    filter_letters = ft_filter(is_vowel, letters)
-    print(f"Result : {filter_letters}")
+    words = [word.strip() for word in s.split(" ")]
+    filter_words = ft_filter(lambda x: check_length(x, n), words)
+    print(filter_words)
 
 
 if __name__ == "__main__":

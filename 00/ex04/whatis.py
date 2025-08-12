@@ -5,19 +5,19 @@ def whois(s):
     try:
         i = int(s)
         if (i % 2):
-            print("I'm Odd")
-        elif not i:
-            print("I'm Zero")
+            print("I'm Odd.")
         else:
-            print("I'm Even")
+            print("I'm Even.")
     except ValueError:
         raise AssertionError("argument is not an integer")
 
 
 def main():
     """Printing NULL types"""
+    if (len(sys.argv) < 2):
+        return
     try:
-        assert len(sys.argv) == 2, "1 argument required, no more, no less"
+        assert len(sys.argv) == 2, "more than one argument is provided"
     except AssertionError as msg:
         print(type(msg).__name__ + ": ", end="")
         print(msg)

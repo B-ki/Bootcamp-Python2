@@ -1,8 +1,7 @@
 def all_thing_is_obj(object: any) -> int:
-    # Get the type of the object
+    '''Function to print the type of the object passed as argument.'''
     obj_type = type(object).__name__
 
-    # Map the object type to the desired output format
     if obj_type == "list":
         print("List : ", end="")
         print(type(object))
@@ -16,26 +15,8 @@ def all_thing_is_obj(object: any) -> int:
         print("Dict : ", end="")
         print(type(object))
     elif obj_type == "str":
-        print("{object} : ", end="")
+        print("Brian is in the kitchen : ", end="")
         print(type(object))
     else:
         print("Type not found")
     return 42
-
-
-def main():
-    """Printing objects types"""
-    ft_list = ["Hello", "tata!"]
-    ft_tuple = ("Hello", "toto!")
-    ft_set = {"Hello", "tutu!"}
-    ft_dict = {"Hello": "titi!"}
-    all_thing_is_obj(ft_list)
-    all_thing_is_obj(ft_tuple)
-    all_thing_is_obj(ft_set)
-    all_thing_is_obj(ft_dict)
-    all_thing_is_obj("Brian")
-    print(all_thing_is_obj(10))
-
-
-if __name__ == "__main__":
-    main()
